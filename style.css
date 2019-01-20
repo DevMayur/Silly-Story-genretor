@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+input:focus{
+    outline: none;
+}
+input[type=button]:focus{
+    outline:none;
+}
+body {
+    background-image: url(https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-can-you-feel-the-love-tonight.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: helvetica, sans-serif;
+  margin-top:70px;    
+}
+
+.wrapper{
+    background-image: url(https://www.xmple.com/wallpaper/purple-blue-gradient-linear-1920x1080-c2-9400d3-00bfff-a-150-f-14.svg) ;
+    height: 400px;
+    width: 600px;
+    background-color: aqua;
+    padding:10px;
+    margin: auto;
+    border-radius:30px;
+    box-shadow:0px 0px 40px 0px white;
+}
+
+  .head1 {
+    font-family: 'Righteous', cursive; 
+    font-weight: bold;  
+    text-align: center;
+    font-size: 35px;
+      color: white;
+  }
+.container{
+    height:93%;
+    border-radius: 25px;
+    border: 2px dashed white;
+}
+.d1{
+    text-align: center;
+    
+    padding:4px;
+}
+.d2{
+    color: white;
+    
+    text-align: center;
+    font-size: 25px;
+}
+.d2 input[type=radio]{
+    zoom:2;
+    margin-top:10px;
+    color: red;
+}
+.d3{
+    text-align: center;
+}
+  div {
+      margin: auto;
+    padding-bottom: 20px;
+  }
+
+  input[type="text"] {
+     background: linear-gradient(to bottom, #627d4d 0%,#1f3b08 100%);
+      color: white;
+    padding: 5px;
+    width:300px;
+      text-align: center;
+      padding: 5px;
+    font-size: 35px;  
+      border-radius: 10px;
+      border:none;
+      margin-top: 5px;
+  }
+.randomize{
+    color:white;
+    background: linear-gradient(1deg, #FF0000 0%, #800000 50%, #ff0000 100%); 
+    font-weight:lighter;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 40px;
+    font-size:15px;
+    padding: 5px;
+}
+  p {
+    border:2px solid white;  
+    border-radius:15px;
+    background:none;
+    color:white;
+      width: 550px;
+      margin: auto;
+    padding:10px;
+    visibility: hidden;
+      font-size:17px;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+  }
+
+/* fonts class is here */
+/* Google fonts is using here by mayur sharma */
+@import url('https://fonts.googleapis.com/css?family=Coiny'); /* font-family: 'Coiny', cursive; */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat'); /* font-family: 'Montserrat', sans-serif; */
+
+
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+/* font-family: 'Righteous', cursive;*/ 
